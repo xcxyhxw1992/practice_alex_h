@@ -1,15 +1,13 @@
 //
-//  pra_NSClandar.h
+//  pra_NSError.h
 //  practice_alex_h
 //
-//  Created by bot on 2018/7/16.
+//  Created by hxw on 2018/7/16.
 //  Copyright © 2018年 testDemon. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
-
-@interface pra_NSClandar : NSObject
-
+@interface pra_NSError : NSObject
 
 @end

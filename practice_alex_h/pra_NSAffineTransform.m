@@ -11,14 +11,10 @@
 
 @implementation pra_NSAffineTransform
 
-
-+ (void)test
++ (void)common
 {
     
+    
 }
-
-
-
-
 
 @end

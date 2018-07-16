@@ -38,6 +38,7 @@
 		8CA46A2A20FC504900CC05CE /* pra_NSSet_about.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA46A2920FC504900CC05CE /* pra_NSSet_about.m */; };
 		8CA46A2D20FC6F0100CC05CE /* pra_NSExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA46A2C20FC6F0100CC05CE /* pra_NSExpression.m */; };
 		8CA46A3020FC6F1300CC05CE /* pra_NSpredicate_about.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA46A2F20FC6F1300CC05CE /* pra_NSpredicate_about.m */; };
+		96AADC1B20FCA1E800F554C3 /* pra_NSError.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AADC1A20FCA1E800F554C3 /* pra_NSError.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -100,6 +101,8 @@
 		8CA46A2C20FC6F0100CC05CE /* pra_NSExpression.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pra_NSExpression.m; sourceTree = "<group>"; };
 		8CA46A2E20FC6F1300CC05CE /* pra_NSpredicate_about.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pra_NSpredicate_about.h; sourceTree = "<group>"; };
 		8CA46A2F20FC6F1300CC05CE /* pra_NSpredicate_about.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pra_NSpredicate_about.m; sourceTree = "<group>"; };
+		96AADC1920FCA1E800F554C3 /* pra_NSError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pra_NSError.h; sourceTree = "<group>"; };
+		96AADC1A20FCA1E800F554C3 /* pra_NSError.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pra_NSError.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +201,8 @@
 				8CA46A2C20FC6F0100CC05CE /* pra_NSExpression.m */,
 				8CA46A2E20FC6F1300CC05CE /* pra_NSpredicate_about.h */,
 				8CA46A2F20FC6F1300CC05CE /* pra_NSpredicate_about.m */,
+				96AADC1920FCA1E800F554C3 /* pra_NSError.h */,
+				96AADC1A20FCA1E800F554C3 /* pra_NSError.m */,
 			);
 			name = " nsobject_pra";
 			sourceTree = "<group>";
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96AADC1B20FCA1E800F554C3 /* pra_NSError.m in Sources */,
 				8CA46A3020FC6F1300CC05CE /* pra_NSpredicate_about.m in Sources */,
 				8CA469EE20FC4BF000CC05CE /* pra_NSClandar.m in Sources */,
 				8CA46A2D20FC6F0100CC05CE /* pra_NSExpression.m in Sources */,
