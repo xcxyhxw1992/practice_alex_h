@@ -14,6 +14,30 @@
 		8C4FB93A20FC4894004764DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C4FB93920FC4894004764DE /* Assets.xcassets */; };
 		8C4FB93D20FC4894004764DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C4FB93B20FC4894004764DE /* LaunchScreen.storyboard */; };
 		8C4FB94020FC4894004764DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4FB93F20FC4894004764DE /* main.m */; };
+		8C4FB94920FC4951004764DE /* pra_NSAffineTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4FB94820FC4951004764DE /* pra_NSAffineTransform.m */; };
+		8CA469EE20FC4BF000CC05CE /* pra_NSClandar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA469ED20FC4BF000CC05CE /* pra_NSClandar.m */; };
+		8CA469F120FC4BFC00CC05CE /* pra_NSCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA469F020FC4BFC00CC05CE /* pra_NSCache.m */; };
+		8CA469F420FC4C2700CC05CE /* pra_NSdata_about.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA469F320FC4C2700CC05CE /* pra_NSdata_about.m */; };
+		8CA469F720FC4C3800CC05CE /* pra_NSDate_about.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA469F620FC4C3800CC05CE /* pra_NSDate_about.m */; };
+		8CA469FA20FC4C8B00CC05CE /* pra_NSdateCompnents.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA469F920FC4C8B00CC05CE /* pra_NSdateCompnents.m */; };
+		8CA469FD20FC4CA800CC05CE /* pra_NSDecimaNumberHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA469FC20FC4CA800CC05CE /* pra_NSDecimaNumberHandler.m */; };
+		8CA46A0020FC4CBB00CC05CE /* pra_NSLocale.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA469FF20FC4CBB00CC05CE /* pra_NSLocale.m */; };
+		8CA46A0320FC4CF200CC05CE /* pra_NSNull.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA46A0220FC4CF200CC05CE /* pra_NSNull.m */; };
+		8CA46A0620FC4CFD00CC05CE /* pra_NStimeZone.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA46A0520FC4CFD00CC05CE /* pra_NStimeZone.m */; };
+		8CA46A0920FC4D6700CC05CE /* pra_NSValue_about.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA46A0820FC4D6700CC05CE /* pra_NSValue_about.m */; };
+		8CA46A0C20FC4DED00CC05CE /* pra_NSVaueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA46A0B20FC4DED00CC05CE /* pra_NSVaueTransformer.m */; };
+		8CA46A0F20FC4E0E00CC05CE /* pra_NSXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA46A0E20FC4E0E00CC05CE /* pra_NSXMLParser.m */; };
+		8CA46A1220FC4E5300CC05CE /* pra_NSAtttributeString_about.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA46A1120FC4E5300CC05CE /* pra_NSAtttributeString_about.m */; };
+		8CA46A1520FC4E7500CC05CE /* pra_NSCharacterSet_about.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA46A1420FC4E7500CC05CE /* pra_NSCharacterSet_about.m */; };
+		8CA46A1820FC4EB100CC05CE /* pra_NSformatter_about.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA46A1720FC4EB100CC05CE /* pra_NSformatter_about.m */; };
+		8CA46A1B20FC4F7600CC05CE /* pra_NSScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA46A1A20FC4F7600CC05CE /* pra_NSScanner.m */; };
+		8CA46A1E20FC4F9B00CC05CE /* pra_NSSortDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA46A1D20FC4F9B00CC05CE /* pra_NSSortDescriptor.m */; };
+		8CA46A2120FC4FC300CC05CE /* pra_NSEnumerator_about.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA46A2020FC4FC300CC05CE /* pra_NSEnumerator_about.m */; };
+		8CA46A2420FC4FEA00CC05CE /* pra_NSIndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA46A2320FC4FEA00CC05CE /* pra_NSIndexPath.m */; };
+		8CA46A2720FC4FFC00CC05CE /* pra_NSIndexSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA46A2620FC4FFC00CC05CE /* pra_NSIndexSet.m */; };
+		8CA46A2A20FC504900CC05CE /* pra_NSSet_about.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA46A2920FC504900CC05CE /* pra_NSSet_about.m */; };
+		8CA46A2D20FC6F0100CC05CE /* pra_NSExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA46A2C20FC6F0100CC05CE /* pra_NSExpression.m */; };
+		8CA46A3020FC6F1300CC05CE /* pra_NSpredicate_about.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA46A2F20FC6F1300CC05CE /* pra_NSpredicate_about.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +52,54 @@
 		8C4FB93C20FC4894004764DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C4FB93E20FC4894004764DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C4FB93F20FC4894004764DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8C4FB94720FC4951004764DE /* pra_NSAffineTransform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pra_NSAffineTransform.h; sourceTree = "<group>"; };
+		8C4FB94820FC4951004764DE /* pra_NSAffineTransform.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pra_NSAffineTransform.m; sourceTree = "<group>"; };
+		8CA469EC20FC4BF000CC05CE /* pra_NSClandar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pra_NSClandar.h; sourceTree = "<group>"; };
+		8CA469ED20FC4BF000CC05CE /* pra_NSClandar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pra_NSClandar.m; sourceTree = "<group>"; };
+		8CA469EF20FC4BFC00CC05CE /* pra_NSCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pra_NSCache.h; sourceTree = "<group>"; };
+		8CA469F020FC4BFC00CC05CE /* pra_NSCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pra_NSCache.m; sourceTree = "<group>"; };
+		8CA469F220FC4C2700CC05CE /* pra_NSdata_about.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pra_NSdata_about.h; sourceTree = "<group>"; };
+		8CA469F320FC4C2700CC05CE /* pra_NSdata_about.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pra_NSdata_about.m; sourceTree = "<group>"; };
+		8CA469F520FC4C3800CC05CE /* pra_NSDate_about.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pra_NSDate_about.h; sourceTree = "<group>"; };
+		8CA469F620FC4C3800CC05CE /* pra_NSDate_about.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pra_NSDate_about.m; sourceTree = "<group>"; };
+		8CA469F820FC4C8B00CC05CE /* pra_NSdateCompnents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pra_NSdateCompnents.h; sourceTree = "<group>"; };
+		8CA469F920FC4C8B00CC05CE /* pra_NSdateCompnents.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pra_NSdateCompnents.m; sourceTree = "<group>"; };
+		8CA469FB20FC4CA800CC05CE /* pra_NSDecimaNumberHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pra_NSDecimaNumberHandler.h; sourceTree = "<group>"; };
+		8CA469FC20FC4CA800CC05CE /* pra_NSDecimaNumberHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pra_NSDecimaNumberHandler.m; sourceTree = "<group>"; };
+		8CA469FE20FC4CBB00CC05CE /* pra_NSLocale.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pra_NSLocale.h; sourceTree = "<group>"; };
+		8CA469FF20FC4CBB00CC05CE /* pra_NSLocale.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pra_NSLocale.m; sourceTree = "<group>"; };
+		8CA46A0120FC4CF200CC05CE /* pra_NSNull.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pra_NSNull.h; sourceTree = "<group>"; };
+		8CA46A0220FC4CF200CC05CE /* pra_NSNull.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pra_NSNull.m; sourceTree = "<group>"; };
+		8CA46A0420FC4CFD00CC05CE /* pra_NStimeZone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pra_NStimeZone.h; sourceTree = "<group>"; };
+		8CA46A0520FC4CFD00CC05CE /* pra_NStimeZone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pra_NStimeZone.m; sourceTree = "<group>"; };
+		8CA46A0720FC4D6700CC05CE /* pra_NSValue_about.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pra_NSValue_about.h; sourceTree = "<group>"; };
+		8CA46A0820FC4D6700CC05CE /* pra_NSValue_about.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pra_NSValue_about.m; sourceTree = "<group>"; };
+		8CA46A0A20FC4DED00CC05CE /* pra_NSVaueTransformer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pra_NSVaueTransformer.h; sourceTree = "<group>"; };
+		8CA46A0B20FC4DED00CC05CE /* pra_NSVaueTransformer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pra_NSVaueTransformer.m; sourceTree = "<group>"; };
+		8CA46A0D20FC4E0E00CC05CE /* pra_NSXMLParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pra_NSXMLParser.h; sourceTree = "<group>"; };
+		8CA46A0E20FC4E0E00CC05CE /* pra_NSXMLParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pra_NSXMLParser.m; sourceTree = "<group>"; };
+		8CA46A1020FC4E5300CC05CE /* pra_NSAtttributeString_about.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pra_NSAtttributeString_about.h; sourceTree = "<group>"; };
+		8CA46A1120FC4E5300CC05CE /* pra_NSAtttributeString_about.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pra_NSAtttributeString_about.m; sourceTree = "<group>"; };
+		8CA46A1320FC4E7500CC05CE /* pra_NSCharacterSet_about.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pra_NSCharacterSet_about.h; sourceTree = "<group>"; };
+		8CA46A1420FC4E7500CC05CE /* pra_NSCharacterSet_about.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pra_NSCharacterSet_about.m; sourceTree = "<group>"; };
+		8CA46A1620FC4EB100CC05CE /* pra_NSformatter_about.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pra_NSformatter_about.h; sourceTree = "<group>"; };
+		8CA46A1720FC4EB100CC05CE /* pra_NSformatter_about.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pra_NSformatter_about.m; sourceTree = "<group>"; };
+		8CA46A1920FC4F7600CC05CE /* pra_NSScanner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pra_NSScanner.h; sourceTree = "<group>"; };
+		8CA46A1A20FC4F7600CC05CE /* pra_NSScanner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pra_NSScanner.m; sourceTree = "<group>"; };
+		8CA46A1C20FC4F9B00CC05CE /* pra_NSSortDescriptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pra_NSSortDescriptor.h; sourceTree = "<group>"; };
+		8CA46A1D20FC4F9B00CC05CE /* pra_NSSortDescriptor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pra_NSSortDescriptor.m; sourceTree = "<group>"; };
+		8CA46A1F20FC4FC300CC05CE /* pra_NSEnumerator_about.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pra_NSEnumerator_about.h; sourceTree = "<group>"; };
+		8CA46A2020FC4FC300CC05CE /* pra_NSEnumerator_about.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pra_NSEnumerator_about.m; sourceTree = "<group>"; };
+		8CA46A2220FC4FEA00CC05CE /* pra_NSIndexPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pra_NSIndexPath.h; sourceTree = "<group>"; };
+		8CA46A2320FC4FEA00CC05CE /* pra_NSIndexPath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pra_NSIndexPath.m; sourceTree = "<group>"; };
+		8CA46A2520FC4FFC00CC05CE /* pra_NSIndexSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pra_NSIndexSet.h; sourceTree = "<group>"; };
+		8CA46A2620FC4FFC00CC05CE /* pra_NSIndexSet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pra_NSIndexSet.m; sourceTree = "<group>"; };
+		8CA46A2820FC504900CC05CE /* pra_NSSet_about.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pra_NSSet_about.h; sourceTree = "<group>"; };
+		8CA46A2920FC504900CC05CE /* pra_NSSet_about.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pra_NSSet_about.m; sourceTree = "<group>"; };
+		8CA46A2B20FC6F0100CC05CE /* pra_NSExpression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pra_NSExpression.h; sourceTree = "<group>"; };
+		8CA46A2C20FC6F0100CC05CE /* pra_NSExpression.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pra_NSExpression.m; sourceTree = "<group>"; };
+		8CA46A2E20FC6F1300CC05CE /* pra_NSpredicate_about.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pra_NSpredicate_about.h; sourceTree = "<group>"; };
+		8CA46A2F20FC6F1300CC05CE /* pra_NSpredicate_about.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pra_NSpredicate_about.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +136,7 @@
 				8C4FB92E20FC4890004764DE /* AppDelegate.m */,
 				8C4FB93020FC4890004764DE /* ViewController.h */,
 				8C4FB93120FC4890004764DE /* ViewController.m */,
+				8C4FB94620FC48A9004764DE /*  nsobject_pra */,
 				8C4FB93320FC4890004764DE /* Main.storyboard */,
 				8C4FB93920FC4894004764DE /* Assets.xcassets */,
 				8C4FB93B20FC4894004764DE /* LaunchScreen.storyboard */,
@@ -72,6 +145,61 @@
 				8C4FB93620FC4890004764DE /* practice_alex_h.xcdatamodeld */,
 			);
 			path = practice_alex_h;
+			sourceTree = "<group>";
+		};
+		8C4FB94620FC48A9004764DE /*  nsobject_pra */ = {
+			isa = PBXGroup;
+			children = (
+				8C4FB94720FC4951004764DE /* pra_NSAffineTransform.h */,
+				8C4FB94820FC4951004764DE /* pra_NSAffineTransform.m */,
+				8CA469EC20FC4BF000CC05CE /* pra_NSClandar.h */,
+				8CA469ED20FC4BF000CC05CE /* pra_NSClandar.m */,
+				8CA469EF20FC4BFC00CC05CE /* pra_NSCache.h */,
+				8CA469F020FC4BFC00CC05CE /* pra_NSCache.m */,
+				8CA469F220FC4C2700CC05CE /* pra_NSdata_about.h */,
+				8CA469F320FC4C2700CC05CE /* pra_NSdata_about.m */,
+				8CA469F520FC4C3800CC05CE /* pra_NSDate_about.h */,
+				8CA469F620FC4C3800CC05CE /* pra_NSDate_about.m */,
+				8CA469F820FC4C8B00CC05CE /* pra_NSdateCompnents.h */,
+				8CA469F920FC4C8B00CC05CE /* pra_NSdateCompnents.m */,
+				8CA469FB20FC4CA800CC05CE /* pra_NSDecimaNumberHandler.h */,
+				8CA469FC20FC4CA800CC05CE /* pra_NSDecimaNumberHandler.m */,
+				8CA469FE20FC4CBB00CC05CE /* pra_NSLocale.h */,
+				8CA469FF20FC4CBB00CC05CE /* pra_NSLocale.m */,
+				8CA46A0120FC4CF200CC05CE /* pra_NSNull.h */,
+				8CA46A0220FC4CF200CC05CE /* pra_NSNull.m */,
+				8CA46A0420FC4CFD00CC05CE /* pra_NStimeZone.h */,
+				8CA46A0520FC4CFD00CC05CE /* pra_NStimeZone.m */,
+				8CA46A0720FC4D6700CC05CE /* pra_NSValue_about.h */,
+				8CA46A0820FC4D6700CC05CE /* pra_NSValue_about.m */,
+				8CA46A0A20FC4DED00CC05CE /* pra_NSVaueTransformer.h */,
+				8CA46A0B20FC4DED00CC05CE /* pra_NSVaueTransformer.m */,
+				8CA46A0D20FC4E0E00CC05CE /* pra_NSXMLParser.h */,
+				8CA46A0E20FC4E0E00CC05CE /* pra_NSXMLParser.m */,
+				8CA46A1020FC4E5300CC05CE /* pra_NSAtttributeString_about.h */,
+				8CA46A1120FC4E5300CC05CE /* pra_NSAtttributeString_about.m */,
+				8CA46A1320FC4E7500CC05CE /* pra_NSCharacterSet_about.h */,
+				8CA46A1420FC4E7500CC05CE /* pra_NSCharacterSet_about.m */,
+				8CA46A1620FC4EB100CC05CE /* pra_NSformatter_about.h */,
+				8CA46A1720FC4EB100CC05CE /* pra_NSformatter_about.m */,
+				8CA46A1920FC4F7600CC05CE /* pra_NSScanner.h */,
+				8CA46A1A20FC4F7600CC05CE /* pra_NSScanner.m */,
+				8CA46A1C20FC4F9B00CC05CE /* pra_NSSortDescriptor.h */,
+				8CA46A1D20FC4F9B00CC05CE /* pra_NSSortDescriptor.m */,
+				8CA46A1F20FC4FC300CC05CE /* pra_NSEnumerator_about.h */,
+				8CA46A2020FC4FC300CC05CE /* pra_NSEnumerator_about.m */,
+				8CA46A2220FC4FEA00CC05CE /* pra_NSIndexPath.h */,
+				8CA46A2320FC4FEA00CC05CE /* pra_NSIndexPath.m */,
+				8CA46A2520FC4FFC00CC05CE /* pra_NSIndexSet.h */,
+				8CA46A2620FC4FFC00CC05CE /* pra_NSIndexSet.m */,
+				8CA46A2820FC504900CC05CE /* pra_NSSet_about.h */,
+				8CA46A2920FC504900CC05CE /* pra_NSSet_about.m */,
+				8CA46A2B20FC6F0100CC05CE /* pra_NSExpression.h */,
+				8CA46A2C20FC6F0100CC05CE /* pra_NSExpression.m */,
+				8CA46A2E20FC6F1300CC05CE /* pra_NSpredicate_about.h */,
+				8CA46A2F20FC6F1300CC05CE /* pra_NSpredicate_about.m */,
+			);
+			name = " nsobject_pra";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -100,6 +228,7 @@
 		8C4FB92220FC4890004764DE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = pra_;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = testDemon;
 				TargetAttributes = {
@@ -144,10 +273,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CA46A3020FC6F1300CC05CE /* pra_NSpredicate_about.m in Sources */,
+				8CA469EE20FC4BF000CC05CE /* pra_NSClandar.m in Sources */,
+				8CA46A2D20FC6F0100CC05CE /* pra_NSExpression.m in Sources */,
+				8C4FB94920FC4951004764DE /* pra_NSAffineTransform.m in Sources */,
+				8CA46A1520FC4E7500CC05CE /* pra_NSCharacterSet_about.m in Sources */,
+				8CA46A1E20FC4F9B00CC05CE /* pra_NSSortDescriptor.m in Sources */,
 				8C4FB93820FC4890004764DE /* practice_alex_h.xcdatamodeld in Sources */,
+				8CA46A2120FC4FC300CC05CE /* pra_NSEnumerator_about.m in Sources */,
 				8C4FB93220FC4890004764DE /* ViewController.m in Sources */,
+				8CA469FA20FC4C8B00CC05CE /* pra_NSdateCompnents.m in Sources */,
+				8CA46A2720FC4FFC00CC05CE /* pra_NSIndexSet.m in Sources */,
+				8CA469F420FC4C2700CC05CE /* pra_NSdata_about.m in Sources */,
 				8C4FB94020FC4894004764DE /* main.m in Sources */,
+				8CA469FD20FC4CA800CC05CE /* pra_NSDecimaNumberHandler.m in Sources */,
+				8CA46A0020FC4CBB00CC05CE /* pra_NSLocale.m in Sources */,
+				8CA46A0C20FC4DED00CC05CE /* pra_NSVaueTransformer.m in Sources */,
+				8CA46A0620FC4CFD00CC05CE /* pra_NStimeZone.m in Sources */,
 				8C4FB92F20FC4890004764DE /* AppDelegate.m in Sources */,
+				8CA46A0320FC4CF200CC05CE /* pra_NSNull.m in Sources */,
+				8CA46A0920FC4D6700CC05CE /* pra_NSValue_about.m in Sources */,
+				8CA46A1B20FC4F7600CC05CE /* pra_NSScanner.m in Sources */,
+				8CA46A0F20FC4E0E00CC05CE /* pra_NSXMLParser.m in Sources */,
+				8CA469F720FC4C3800CC05CE /* pra_NSDate_about.m in Sources */,
+				8CA46A2420FC4FEA00CC05CE /* pra_NSIndexPath.m in Sources */,
+				8CA469F120FC4BFC00CC05CE /* pra_NSCache.m in Sources */,
+				8CA46A1220FC4E5300CC05CE /* pra_NSAtttributeString_about.m in Sources */,
+				8CA46A1820FC4EB100CC05CE /* pra_NSformatter_about.m in Sources */,
+				8CA46A2A20FC504900CC05CE /* pra_NSSet_about.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
