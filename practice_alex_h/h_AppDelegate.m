@@ -6,17 +6,21 @@
 //  Copyright © 2018年 testDemon. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "h_AppDelegate.h"
+#import "pra_DealProxy.h"
 
-@interface AppDelegate ()
+@interface h_AppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation h_AppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    pra_DealProxy * dealProxy = [pra_DealProxy shareDealProxy];
+    
+    
     return YES;
 }
 
@@ -93,6 +97,14 @@
         NSLog(@"Unresolved error %@, %@", error, error.userInfo);
         abort();
     }
+}
+
+#pragma mark - getMsg
+
+- (void)getMsg
+{
+    NSLog(@"h_AppDelegate get Msg");
+    
 }
 
 @end

@@ -10,4 +10,16 @@
 
 @implementation pra_NSClandar
 
+
++ (void)clandar_a
+{
+    
+    
+    
+    
+}
+
+
+
+
 @end

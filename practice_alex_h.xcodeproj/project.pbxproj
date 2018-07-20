@@ -7,12 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8C4FB92F20FC4890004764DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4FB92E20FC4890004764DE /* AppDelegate.m */; };
+		8C4FB92F20FC4890004764DE /* h_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4FB92E20FC4890004764DE /* h_AppDelegate.m */; };
 		8C4FB93220FC4890004764DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4FB93120FC4890004764DE /* ViewController.m */; };
-		8C4FB93520FC4890004764DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C4FB93320FC4890004764DE /* Main.storyboard */; };
 		8C4FB93820FC4890004764DE /* practice_alex_h.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C4FB93620FC4890004764DE /* practice_alex_h.xcdatamodeld */; };
 		8C4FB93A20FC4894004764DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C4FB93920FC4894004764DE /* Assets.xcassets */; };
-		8C4FB93D20FC4894004764DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C4FB93B20FC4894004764DE /* LaunchScreen.storyboard */; };
 		8C4FB94020FC4894004764DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4FB93F20FC4894004764DE /* main.m */; };
 		8C4FB94920FC4951004764DE /* pra_NSAffineTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4FB94820FC4951004764DE /* pra_NSAffineTransform.m */; };
 		8CA469EE20FC4BF000CC05CE /* pra_NSClandar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA469ED20FC4BF000CC05CE /* pra_NSClandar.m */; };
@@ -38,19 +36,21 @@
 		8CA46A2A20FC504900CC05CE /* pra_NSSet_about.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA46A2920FC504900CC05CE /* pra_NSSet_about.m */; };
 		8CA46A2D20FC6F0100CC05CE /* pra_NSExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA46A2C20FC6F0100CC05CE /* pra_NSExpression.m */; };
 		8CA46A3020FC6F1300CC05CE /* pra_NSpredicate_about.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA46A2F20FC6F1300CC05CE /* pra_NSpredicate_about.m */; };
+		9684AAA621003DE8003A995D /* pra_CommonTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9684AAA521003DE8003A995D /* pra_CommonTest.m */; };
+		9684AAA921006436003A995D /* pra_bookProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 9684AAA821006436003A995D /* pra_bookProvider.m */; };
+		9684AAAC21006453003A995D /* pra_clothesProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 9684AAAB21006453003A995D /* pra_clothesProvider.m */; };
+		9684AAAF2100651C003A995D /* pra_DealProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9684AAAE2100651C003A995D /* pra_DealProxy.m */; };
 		96AADC1B20FCA1E800F554C3 /* pra_NSError.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AADC1A20FCA1E800F554C3 /* pra_NSError.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8C4FB92A20FC4890004764DE /* practice_alex_h.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = practice_alex_h.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C4FB92D20FC4890004764DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		8C4FB92E20FC4890004764DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8C4FB92D20FC4890004764DE /* h_AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = h_AppDelegate.h; sourceTree = "<group>"; };
+		8C4FB92E20FC4890004764DE /* h_AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = h_AppDelegate.m; sourceTree = "<group>"; };
 		8C4FB93020FC4890004764DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8C4FB93120FC4890004764DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		8C4FB93420FC4890004764DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C4FB93720FC4890004764DE /* practice_alex_h.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = practice_alex_h.xcdatamodel; sourceTree = "<group>"; };
 		8C4FB93920FC4894004764DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8C4FB93C20FC4894004764DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C4FB93E20FC4894004764DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C4FB93F20FC4894004764DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8C4FB94720FC4951004764DE /* pra_NSAffineTransform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pra_NSAffineTransform.h; sourceTree = "<group>"; };
@@ -101,6 +101,14 @@
 		8CA46A2C20FC6F0100CC05CE /* pra_NSExpression.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pra_NSExpression.m; sourceTree = "<group>"; };
 		8CA46A2E20FC6F1300CC05CE /* pra_NSpredicate_about.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pra_NSpredicate_about.h; sourceTree = "<group>"; };
 		8CA46A2F20FC6F1300CC05CE /* pra_NSpredicate_about.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pra_NSpredicate_about.m; sourceTree = "<group>"; };
+		9684AAA421003DE8003A995D /* pra_CommonTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pra_CommonTest.h; sourceTree = "<group>"; };
+		9684AAA521003DE8003A995D /* pra_CommonTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pra_CommonTest.m; sourceTree = "<group>"; };
+		9684AAA721006436003A995D /* pra_bookProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pra_bookProvider.h; sourceTree = "<group>"; };
+		9684AAA821006436003A995D /* pra_bookProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pra_bookProvider.m; sourceTree = "<group>"; };
+		9684AAAA21006453003A995D /* pra_clothesProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pra_clothesProvider.h; sourceTree = "<group>"; };
+		9684AAAB21006453003A995D /* pra_clothesProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pra_clothesProvider.m; sourceTree = "<group>"; };
+		9684AAAD2100651C003A995D /* pra_DealProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pra_DealProxy.h; sourceTree = "<group>"; };
+		9684AAAE2100651C003A995D /* pra_DealProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pra_DealProxy.m; sourceTree = "<group>"; };
 		96AADC1920FCA1E800F554C3 /* pra_NSError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pra_NSError.h; sourceTree = "<group>"; };
 		96AADC1A20FCA1E800F554C3 /* pra_NSError.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pra_NSError.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -135,14 +143,13 @@
 		8C4FB92C20FC4890004764DE /* practice_alex_h */ = {
 			isa = PBXGroup;
 			children = (
-				8C4FB92D20FC4890004764DE /* AppDelegate.h */,
-				8C4FB92E20FC4890004764DE /* AppDelegate.m */,
+				9684AAA321003DC0003A995D /* commonTest */,
+				8C4FB92D20FC4890004764DE /* h_AppDelegate.h */,
+				8C4FB92E20FC4890004764DE /* h_AppDelegate.m */,
 				8C4FB93020FC4890004764DE /* ViewController.h */,
 				8C4FB93120FC4890004764DE /* ViewController.m */,
 				8C4FB94620FC48A9004764DE /*  nsobject_pra */,
-				8C4FB93320FC4890004764DE /* Main.storyboard */,
 				8C4FB93920FC4894004764DE /* Assets.xcassets */,
-				8C4FB93B20FC4894004764DE /* LaunchScreen.storyboard */,
 				8C4FB93E20FC4894004764DE /* Info.plist */,
 				8C4FB93F20FC4894004764DE /* main.m */,
 				8C4FB93620FC4890004764DE /* practice_alex_h.xcdatamodeld */,
@@ -207,6 +214,21 @@
 			name = " nsobject_pra";
 			sourceTree = "<group>";
 		};
+		9684AAA321003DC0003A995D /* commonTest */ = {
+			isa = PBXGroup;
+			children = (
+				9684AAA421003DE8003A995D /* pra_CommonTest.h */,
+				9684AAA521003DE8003A995D /* pra_CommonTest.m */,
+				9684AAA721006436003A995D /* pra_bookProvider.h */,
+				9684AAA821006436003A995D /* pra_bookProvider.m */,
+				9684AAAA21006453003A995D /* pra_clothesProvider.h */,
+				9684AAAB21006453003A995D /* pra_clothesProvider.m */,
+				9684AAAD2100651C003A995D /* pra_DealProxy.h */,
+				9684AAAE2100651C003A995D /* pra_DealProxy.m */,
+			);
+			name = commonTest;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -265,9 +287,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C4FB93D20FC4894004764DE /* LaunchScreen.storyboard in Resources */,
 				8C4FB93A20FC4894004764DE /* Assets.xcassets in Resources */,
-				8C4FB93520FC4890004764DE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,21 +302,24 @@
 				8CA46A3020FC6F1300CC05CE /* pra_NSpredicate_about.m in Sources */,
 				8CA469EE20FC4BF000CC05CE /* pra_NSClandar.m in Sources */,
 				8CA46A2D20FC6F0100CC05CE /* pra_NSExpression.m in Sources */,
+				9684AAA921006436003A995D /* pra_bookProvider.m in Sources */,
 				8C4FB94920FC4951004764DE /* pra_NSAffineTransform.m in Sources */,
 				8CA46A1520FC4E7500CC05CE /* pra_NSCharacterSet_about.m in Sources */,
 				8CA46A1E20FC4F9B00CC05CE /* pra_NSSortDescriptor.m in Sources */,
 				8C4FB93820FC4890004764DE /* practice_alex_h.xcdatamodeld in Sources */,
+				9684AAA621003DE8003A995D /* pra_CommonTest.m in Sources */,
 				8CA46A2120FC4FC300CC05CE /* pra_NSEnumerator_about.m in Sources */,
 				8C4FB93220FC4890004764DE /* ViewController.m in Sources */,
 				8CA469FA20FC4C8B00CC05CE /* pra_NSdateCompnents.m in Sources */,
 				8CA46A2720FC4FFC00CC05CE /* pra_NSIndexSet.m in Sources */,
 				8CA469F420FC4C2700CC05CE /* pra_NSdata_about.m in Sources */,
+				9684AAAC21006453003A995D /* pra_clothesProvider.m in Sources */,
 				8C4FB94020FC4894004764DE /* main.m in Sources */,
 				8CA469FD20FC4CA800CC05CE /* pra_NSDecimaNumberHandler.m in Sources */,
 				8CA46A0020FC4CBB00CC05CE /* pra_NSLocale.m in Sources */,
 				8CA46A0C20FC4DED00CC05CE /* pra_NSVaueTransformer.m in Sources */,
 				8CA46A0620FC4CFD00CC05CE /* pra_NStimeZone.m in Sources */,
-				8C4FB92F20FC4890004764DE /* AppDelegate.m in Sources */,
+				8C4FB92F20FC4890004764DE /* h_AppDelegate.m in Sources */,
 				8CA46A0320FC4CF200CC05CE /* pra_NSNull.m in Sources */,
 				8CA46A0920FC4D6700CC05CE /* pra_NSValue_about.m in Sources */,
 				8CA46A1B20FC4F7600CC05CE /* pra_NSScanner.m in Sources */,
@@ -306,30 +329,12 @@
 				8CA469F120FC4BFC00CC05CE /* pra_NSCache.m in Sources */,
 				8CA46A1220FC4E5300CC05CE /* pra_NSAtttributeString_about.m in Sources */,
 				8CA46A1820FC4EB100CC05CE /* pra_NSformatter_about.m in Sources */,
+				9684AAAF2100651C003A995D /* pra_DealProxy.m in Sources */,
 				8CA46A2A20FC504900CC05CE /* pra_NSSet_about.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		8C4FB93320FC4890004764DE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8C4FB93420FC4890004764DE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8C4FB93B20FC4894004764DE /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8C4FB93C20FC4894004764DE /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		8C4FB94120FC4894004764DE /* Debug */ = {
@@ -449,6 +454,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 65Y6W33WZW;
 				INFOPLIST_FILE = practice_alex_h/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,6 +472,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 65Y6W33WZW;
 				INFOPLIST_FILE = practice_alex_h/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

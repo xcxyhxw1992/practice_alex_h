@@ -8,6 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
-@interface pra_NSCache : NSObject
+@interface pra_NSCache : NSObject <NSCacheDelegate>
+
+
+- (void)startCache ;
+- (void)checkCache ;
+- (void)deleteCaheData;
 
 @end
