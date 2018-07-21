@@ -7,8 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "pra_bookProvider.h"
+#import "pra_clothesProvider.h"
 
-@interface pra_DealProxy : NSProxy
+@interface pra_DealProxy : NSProxy <praBookproviderPrototol,pra_clothesProviderProtocol>
 
 
 + (instancetype)shareDealProxy ;

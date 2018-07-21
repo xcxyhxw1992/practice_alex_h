@@ -9,8 +9,7 @@
 #import "pra_DealProxy.h"
 #import <objc/runtime.h>
 
-#import "pra_bookProvider.h"
-#import "pra_clothesProvider.h"
+
 
 @interface pra_DealProxy (){
     
@@ -29,7 +28,7 @@
     
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        proxy =  [pra_DealProxy alloc];
+        proxy =  [[pra_DealProxy alloc] init];
     });
     return proxy;
 }
@@ -43,7 +42,8 @@
     _clotheProvider = [[pra_clothesProvider alloc] init];
     
     // 映射target方法列表
-    
+    [self _registerMethodWithTarget:_bookProvider];
+    [self _registerMethodWithTarget:_clotheProvider];
     
     return self ;
 }

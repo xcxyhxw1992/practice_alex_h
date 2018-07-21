@@ -19,8 +19,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     pra_DealProxy * dealProxy = [pra_DealProxy shareDealProxy];
-    
-    
+    [dealProxy bookDealWithName:@"objectC book"];
+    [dealProxy purchaseClothsWithSize:S];
     return YES;
 }
 
