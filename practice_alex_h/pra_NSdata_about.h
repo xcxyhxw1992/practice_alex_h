@@ -10,4 +10,7 @@
 
 @interface pra_NSdata_about : NSObject
 
+@property(nonatomic, strong) NSData * data ;
+
+
 @end

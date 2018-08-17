@@ -8,8 +8,12 @@
 
 #import "h_AppDelegate.h"
 #import "pra_DealProxy.h"
-
-@interface h_AppDelegate ()
+#import "ViewController.h"
+#import "libraryTest.h"
+#import <myFramewok/catManager.h>
+#import "pra_BaseModule.h"
+@interface h_AppDelegate () <pra_moduleA
+                        ,pra_BaseModule>
 
 @end
 
@@ -21,6 +25,15 @@
     pra_DealProxy * dealProxy = [pra_DealProxy shareDealProxy];
     [dealProxy bookDealWithName:@"objectC book"];
     [dealProxy purchaseClothsWithSize:S];
+    _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    UINavigationController   * nvc = [[UINavigationController alloc] initWithRootViewController:[[ViewController alloc] init]];
+    [_window setRootViewController:nvc];
+    
+    [_window makeKeyAndVisible];
+    
+//    [libraryTest sayHelloWorld];
+//    [catManager letUslearnMiaow];
+    
     return YES;
 }
 
@@ -104,7 +117,6 @@
 - (void)getMsg
 {
     NSLog(@"h_AppDelegate get Msg");
-    
 }
 
 @end

@@ -1,0 +1,6 @@
+framework module myFramewok {
+  umbrella header "myFramewok.h"
+
+  export *
+  module * { export * }
+}

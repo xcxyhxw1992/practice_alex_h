@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31D2DD9B090453CEB71AC7AC /* libPods-practice_alex_h.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E7EE4C7C88556E4E3AFA082 /* libPods-practice_alex_h.a */; };
 		8C4FB92F20FC4890004764DE /* h_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4FB92E20FC4890004764DE /* h_AppDelegate.m */; };
 		8C4FB93220FC4890004764DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4FB93120FC4890004764DE /* ViewController.m */; };
 		8C4FB93820FC4890004764DE /* practice_alex_h.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C4FB93620FC4890004764DE /* practice_alex_h.xcdatamodeld */; };
@@ -36,6 +37,14 @@
 		8CA46A2A20FC504900CC05CE /* pra_NSSet_about.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA46A2920FC504900CC05CE /* pra_NSSet_about.m */; };
 		8CA46A2D20FC6F0100CC05CE /* pra_NSExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA46A2C20FC6F0100CC05CE /* pra_NSExpression.m */; };
 		8CA46A3020FC6F1300CC05CE /* pra_NSpredicate_about.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA46A2F20FC6F1300CC05CE /* pra_NSpredicate_about.m */; };
+		964BF8552113FEF10049DD3E /* pra_NSbundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 964BF8542113FEF10049DD3E /* pra_NSbundle.m */; };
+		9664EACC2109806700E57176 /* libraryTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9664EACB2109806700E57176 /* libraryTest.a */; };
+		9664EB1C2109B2CF00E57176 /* myFramewok.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9664EB1B2109B2CF00E57176 /* myFramewok.framework */; };
+		966A053A211A97F500033AE9 /* pra_MCustom_View.m in Sources */ = {isa = PBXBuildFile; fileRef = 966A0539211A97F500033AE9 /* pra_MCustom_View.m */; };
+		966BFA64211947BE0062237E /* pra_Module_A.m in Sources */ = {isa = PBXBuildFile; fileRef = 966BFA63211947BE0062237E /* pra_Module_A.m */; };
+		966BFA67211947D20062237E /* pra_Module_B.m in Sources */ = {isa = PBXBuildFile; fileRef = 966BFA66211947D20062237E /* pra_Module_B.m */; };
+		966D595621057899003099A3 /* pra_ViewController_A.m in Sources */ = {isa = PBXBuildFile; fileRef = 966D595521057899003099A3 /* pra_ViewController_A.m */; };
+		966D5959210578A5003099A3 /* pra_ViewController_B.m in Sources */ = {isa = PBXBuildFile; fileRef = 966D5958210578A5003099A3 /* pra_ViewController_B.m */; };
 		9684AAA621003DE8003A995D /* pra_CommonTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9684AAA521003DE8003A995D /* pra_CommonTest.m */; };
 		9684AAA921006436003A995D /* pra_bookProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 9684AAA821006436003A995D /* pra_bookProvider.m */; };
 		9684AAAC21006453003A995D /* pra_clothesProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 9684AAAB21006453003A995D /* pra_clothesProvider.m */; };
@@ -44,6 +53,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E7EE4C7C88556E4E3AFA082 /* libPods-practice_alex_h.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-practice_alex_h.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C4FB92A20FC4890004764DE /* practice_alex_h.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = practice_alex_h.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C4FB92D20FC4890004764DE /* h_AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = h_AppDelegate.h; sourceTree = "<group>"; };
 		8C4FB92E20FC4890004764DE /* h_AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = h_AppDelegate.m; sourceTree = "<group>"; };
@@ -101,6 +111,22 @@
 		8CA46A2C20FC6F0100CC05CE /* pra_NSExpression.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pra_NSExpression.m; sourceTree = "<group>"; };
 		8CA46A2E20FC6F1300CC05CE /* pra_NSpredicate_about.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pra_NSpredicate_about.h; sourceTree = "<group>"; };
 		8CA46A2F20FC6F1300CC05CE /* pra_NSpredicate_about.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pra_NSpredicate_about.m; sourceTree = "<group>"; };
+		964BF8532113FEF10049DD3E /* pra_NSbundle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pra_NSbundle.h; sourceTree = "<group>"; };
+		964BF8542113FEF10049DD3E /* pra_NSbundle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pra_NSbundle.m; sourceTree = "<group>"; };
+		9664EACB2109806700E57176 /* libraryTest.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libraryTest.a; sourceTree = "<group>"; };
+		9664EACD2109807500E57176 /* libraryTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libraryTest.h; sourceTree = "<group>"; };
+		9664EB1B2109B2CF00E57176 /* myFramewok.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = myFramewok.framework; sourceTree = "<group>"; };
+		966A0538211A97F500033AE9 /* pra_MCustom_View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pra_MCustom_View.h; sourceTree = "<group>"; };
+		966A0539211A97F500033AE9 /* pra_MCustom_View.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pra_MCustom_View.m; sourceTree = "<group>"; };
+		966BFA62211947BE0062237E /* pra_Module_A.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pra_Module_A.h; sourceTree = "<group>"; };
+		966BFA63211947BE0062237E /* pra_Module_A.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pra_Module_A.m; sourceTree = "<group>"; };
+		966BFA65211947D20062237E /* pra_Module_B.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pra_Module_B.h; sourceTree = "<group>"; };
+		966BFA66211947D20062237E /* pra_Module_B.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pra_Module_B.m; sourceTree = "<group>"; };
+		966BFA692119501F0062237E /* pra_BaseModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pra_BaseModule.h; sourceTree = "<group>"; };
+		966D595421057899003099A3 /* pra_ViewController_A.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pra_ViewController_A.h; sourceTree = "<group>"; };
+		966D595521057899003099A3 /* pra_ViewController_A.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pra_ViewController_A.m; sourceTree = "<group>"; };
+		966D5957210578A5003099A3 /* pra_ViewController_B.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pra_ViewController_B.h; sourceTree = "<group>"; };
+		966D5958210578A5003099A3 /* pra_ViewController_B.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pra_ViewController_B.m; sourceTree = "<group>"; };
 		9684AAA421003DE8003A995D /* pra_CommonTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pra_CommonTest.h; sourceTree = "<group>"; };
 		9684AAA521003DE8003A995D /* pra_CommonTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pra_CommonTest.m; sourceTree = "<group>"; };
 		9684AAA721006436003A995D /* pra_bookProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pra_bookProvider.h; sourceTree = "<group>"; };
@@ -111,6 +137,8 @@
 		9684AAAE2100651C003A995D /* pra_DealProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pra_DealProxy.m; sourceTree = "<group>"; };
 		96AADC1920FCA1E800F554C3 /* pra_NSError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pra_NSError.h; sourceTree = "<group>"; };
 		96AADC1A20FCA1E800F554C3 /* pra_NSError.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pra_NSError.m; sourceTree = "<group>"; };
+		A54F60572498A436A50E9EF9 /* Pods-practice_alex_h.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-practice_alex_h.release.xcconfig"; path = "Pods/Target Support Files/Pods-practice_alex_h/Pods-practice_alex_h.release.xcconfig"; sourceTree = "<group>"; };
+		B0E75BFCDB66EA8348919458 /* Pods-practice_alex_h.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-practice_alex_h.debug.xcconfig"; path = "Pods/Target Support Files/Pods-practice_alex_h/Pods-practice_alex_h.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,17 +146,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9664EB1C2109B2CF00E57176 /* myFramewok.framework in Frameworks */,
+				9664EACC2109806700E57176 /* libraryTest.a in Frameworks */,
+				31D2DD9B090453CEB71AC7AC /* libPods-practice_alex_h.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3413A73285627D08CA432605 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E7EE4C7C88556E4E3AFA082 /* libPods-practice_alex_h.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87F6D0EBEC84181CAC2C969F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0E75BFCDB66EA8348919458 /* Pods-practice_alex_h.debug.xcconfig */,
+				A54F60572498A436A50E9EF9 /* Pods-practice_alex_h.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8C4FB92120FC4890004764DE = {
 			isa = PBXGroup;
 			children = (
 				8C4FB92C20FC4890004764DE /* practice_alex_h */,
 				8C4FB92B20FC4890004764DE /* Products */,
+				87F6D0EBEC84181CAC2C969F /* Pods */,
+				3413A73285627D08CA432605 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,11 +193,18 @@
 		8C4FB92C20FC4890004764DE /* practice_alex_h */ = {
 			isa = PBXGroup;
 			children = (
+				966BFA55211946DE0062237E /* compenetTest */,
+				9664EACE210980CB00E57176 /* frameWork */,
+				9664EACA2109804000E57176 /* staticLib */,
 				9684AAA321003DC0003A995D /* commonTest */,
 				8C4FB92D20FC4890004764DE /* h_AppDelegate.h */,
 				8C4FB92E20FC4890004764DE /* h_AppDelegate.m */,
 				8C4FB93020FC4890004764DE /* ViewController.h */,
 				8C4FB93120FC4890004764DE /* ViewController.m */,
+				966D595421057899003099A3 /* pra_ViewController_A.h */,
+				966D595521057899003099A3 /* pra_ViewController_A.m */,
+				966D5957210578A5003099A3 /* pra_ViewController_B.h */,
+				966D5958210578A5003099A3 /* pra_ViewController_B.m */,
 				8C4FB94620FC48A9004764DE /*  nsobject_pra */,
 				8C4FB93920FC4894004764DE /* Assets.xcassets */,
 				8C4FB93E20FC4894004764DE /* Info.plist */,
@@ -210,13 +267,78 @@
 				8CA46A2F20FC6F1300CC05CE /* pra_NSpredicate_about.m */,
 				96AADC1920FCA1E800F554C3 /* pra_NSError.h */,
 				96AADC1A20FCA1E800F554C3 /* pra_NSError.m */,
+				964BF8532113FEF10049DD3E /* pra_NSbundle.h */,
+				964BF8542113FEF10049DD3E /* pra_NSbundle.m */,
 			);
 			name = " nsobject_pra";
+			sourceTree = "<group>";
+		};
+		9664EACA2109804000E57176 /* staticLib */ = {
+			isa = PBXGroup;
+			children = (
+				9664EACD2109807500E57176 /* libraryTest.h */,
+				9664EACB2109806700E57176 /* libraryTest.a */,
+			);
+			name = staticLib;
+			sourceTree = "<group>";
+		};
+		9664EACE210980CB00E57176 /* frameWork */ = {
+			isa = PBXGroup;
+			children = (
+				9664EB1B2109B2CF00E57176 /* myFramewok.framework */,
+			);
+			name = frameWork;
+			sourceTree = "<group>";
+		};
+		966A0537211A97A600033AE9 /* customVIew */ = {
+			isa = PBXGroup;
+			children = (
+				966A0538211A97F500033AE9 /* pra_MCustom_View.h */,
+				966A0539211A97F500033AE9 /* pra_MCustom_View.m */,
+			);
+			name = customVIew;
+			sourceTree = "<group>";
+		};
+		966BFA55211946DE0062237E /* compenetTest */ = {
+			isa = PBXGroup;
+			children = (
+				966BFA58211947130062237E /* alex_module */,
+				966BFA57211947090062237E /* alex_router */,
+				966BFA56211946F10062237E /* alex_protocol */,
+			);
+			name = compenetTest;
+			sourceTree = "<group>";
+		};
+		966BFA56211946F10062237E /* alex_protocol */ = {
+			isa = PBXGroup;
+			children = (
+				966BFA692119501F0062237E /* pra_BaseModule.h */,
+			);
+			name = alex_protocol;
+			sourceTree = "<group>";
+		};
+		966BFA57211947090062237E /* alex_router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = alex_router;
+			sourceTree = "<group>";
+		};
+		966BFA58211947130062237E /* alex_module */ = {
+			isa = PBXGroup;
+			children = (
+				966BFA62211947BE0062237E /* pra_Module_A.h */,
+				966BFA63211947BE0062237E /* pra_Module_A.m */,
+				966BFA65211947D20062237E /* pra_Module_B.h */,
+				966BFA66211947D20062237E /* pra_Module_B.m */,
+			);
+			name = alex_module;
 			sourceTree = "<group>";
 		};
 		9684AAA321003DC0003A995D /* commonTest */ = {
 			isa = PBXGroup;
 			children = (
+				966A0537211A97A600033AE9 /* customVIew */,
 				9684AAA421003DE8003A995D /* pra_CommonTest.h */,
 				9684AAA521003DE8003A995D /* pra_CommonTest.m */,
 				9684AAA721006436003A995D /* pra_bookProvider.h */,
@@ -236,9 +358,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C4FB94320FC4894004764DE /* Build configuration list for PBXNativeTarget "practice_alex_h" */;
 			buildPhases = (
+				FCD7A7D1F4363A19CDCA52DA /* [CP] Check Pods Manifest.lock */,
 				8C4FB92620FC4890004764DE /* Sources */,
 				8C4FB92720FC4890004764DE /* Frameworks */,
 				8C4FB92820FC4890004764DE /* Resources */,
+				FD0A957F7092827E05FAAAAC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -293,17 +417,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		FCD7A7D1F4363A19CDCA52DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-practice_alex_h-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD0A957F7092827E05FAAAAC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-practice_alex_h/Pods-practice_alex_h-resources.sh",
+				"${PODS_ROOT}/MagicWindowSDK/MagicWindowSDK/MagicWindowSDK/MagicWindow.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MagicWindow.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-practice_alex_h/Pods-practice_alex_h-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8C4FB92620FC4890004764DE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				96AADC1B20FCA1E800F554C3 /* pra_NSError.m in Sources */,
+				966BFA64211947BE0062237E /* pra_Module_A.m in Sources */,
+				966A053A211A97F500033AE9 /* pra_MCustom_View.m in Sources */,
 				8CA46A3020FC6F1300CC05CE /* pra_NSpredicate_about.m in Sources */,
 				8CA469EE20FC4BF000CC05CE /* pra_NSClandar.m in Sources */,
 				8CA46A2D20FC6F0100CC05CE /* pra_NSExpression.m in Sources */,
 				9684AAA921006436003A995D /* pra_bookProvider.m in Sources */,
 				8C4FB94920FC4951004764DE /* pra_NSAffineTransform.m in Sources */,
+				966D595621057899003099A3 /* pra_ViewController_A.m in Sources */,
 				8CA46A1520FC4E7500CC05CE /* pra_NSCharacterSet_about.m in Sources */,
 				8CA46A1E20FC4F9B00CC05CE /* pra_NSSortDescriptor.m in Sources */,
 				8C4FB93820FC4890004764DE /* practice_alex_h.xcdatamodeld in Sources */,
@@ -311,11 +477,13 @@
 				8CA46A2120FC4FC300CC05CE /* pra_NSEnumerator_about.m in Sources */,
 				8C4FB93220FC4890004764DE /* ViewController.m in Sources */,
 				8CA469FA20FC4C8B00CC05CE /* pra_NSdateCompnents.m in Sources */,
+				964BF8552113FEF10049DD3E /* pra_NSbundle.m in Sources */,
 				8CA46A2720FC4FFC00CC05CE /* pra_NSIndexSet.m in Sources */,
 				8CA469F420FC4C2700CC05CE /* pra_NSdata_about.m in Sources */,
 				9684AAAC21006453003A995D /* pra_clothesProvider.m in Sources */,
 				8C4FB94020FC4894004764DE /* main.m in Sources */,
 				8CA469FD20FC4CA800CC05CE /* pra_NSDecimaNumberHandler.m in Sources */,
+				966BFA67211947D20062237E /* pra_Module_B.m in Sources */,
 				8CA46A0020FC4CBB00CC05CE /* pra_NSLocale.m in Sources */,
 				8CA46A0C20FC4DED00CC05CE /* pra_NSVaueTransformer.m in Sources */,
 				8CA46A0620FC4CFD00CC05CE /* pra_NStimeZone.m in Sources */,
@@ -328,6 +496,7 @@
 				8CA46A2420FC4FEA00CC05CE /* pra_NSIndexPath.m in Sources */,
 				8CA469F120FC4BFC00CC05CE /* pra_NSCache.m in Sources */,
 				8CA46A1220FC4E5300CC05CE /* pra_NSAtttributeString_about.m in Sources */,
+				966D5959210578A5003099A3 /* pra_ViewController_B.m in Sources */,
 				8CA46A1820FC4EB100CC05CE /* pra_NSformatter_about.m in Sources */,
 				9684AAAF2100651C003A995D /* pra_DealProxy.m in Sources */,
 				8CA46A2A20FC504900CC05CE /* pra_NSSet_about.m in Sources */,
@@ -449,15 +618,25 @@
 		};
 		8C4FB94420FC4894004764DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0E75BFCDB66EA8348919458 /* Pods-practice_alex_h.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 65Y6W33WZW;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/practice_alex_h",
+				);
 				INFOPLIST_FILE = practice_alex_h/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/practice_alex_h",
+					"\"$(SRCROOT)/myFramework.framework\"/**",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "myself.practice-alex-h";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -467,15 +646,25 @@
 		};
 		8C4FB94520FC4894004764DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A54F60572498A436A50E9EF9 /* Pods-practice_alex_h.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 65Y6W33WZW;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/practice_alex_h",
+				);
 				INFOPLIST_FILE = practice_alex_h/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/practice_alex_h",
+					"\"$(SRCROOT)/myFramework.framework\"/**",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "myself.practice-alex-h";
 				PRODUCT_NAME = "$(TARGET_NAME)";

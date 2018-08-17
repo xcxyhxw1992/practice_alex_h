@@ -8,6 +8,21 @@
 
 #import "pra_NSValue_about.h"
 
+@interface pra_NSValue_about()
+
+
+@end
+
 @implementation pra_NSValue_about
+
+
+- (void)testvalue{
+    
+    test mytest ;
+    mytest.i  = 10;
+    mytest.n  = 11.1;
+    mytest.u  = 'A' ;
+    self.myvalue =  [[NSValue alloc] initWithBytes:&mytest objCType:@encode(test)];
+}
 
 @end
