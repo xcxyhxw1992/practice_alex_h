@@ -11,25 +11,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		131A9C071E07C00AAC34F39A466AE8C1 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = WechatSDK1.8.2/libWeChatSDK.a; sourceTree = "<group>"; };
 		1EE28FDFA873D1F4DA3B04689FF148EE /* Pods-practice_alex_h-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-practice_alex_h-acknowledgements.plist"; sourceTree = "<group>"; };
 		22A274A69E7BF7112AAD13D64884CF89 /* Pods-practice_alex_h.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-practice_alex_h.debug.xcconfig"; sourceTree = "<group>"; };
-		420EAD049A2CA32729EED166B675A2B4 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = WechatSDK1.8.2/WXApi.h; sourceTree = "<group>"; };
-		45DBFCB88BBF2251232DC775C5859F16 /* MWApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWApiObject.h; path = MagicWindowSDK/MagicWindowSDK/MWApiObject.h; sourceTree = "<group>"; };
 		4838248F1D0E06B5495821CBC61BA300 /* Pods-practice_alex_h-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-practice_alex_h-frameworks.sh"; sourceTree = "<group>"; };
 		57759B42EA02DE6D4487F8B837CD345D /* Pods-practice_alex_h-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-practice_alex_h-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6B62B8C33630B7DB48F1BECBA7673402 /* Pods-practice_alex_h.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-practice_alex_h.release.xcconfig"; sourceTree = "<group>"; };
 		79F65E20AB5BE4EBA7328848CBF522C9 /* libPods-practice_alex_h.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-practice_alex_h.a"; path = "libPods-practice_alex_h.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7B158C5453678AB9E0B81FF1A70084D1 /* MWCampaignConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWCampaignConfig.h; path = MagicWindowSDK/MagicWindowSDK/MWCampaignConfig.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AB7D62B01C60BA29C654677A59DB661A /* Pods-practice_alex_h-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-practice_alex_h-resources.sh"; sourceTree = "<group>"; };
-		ABA4221A0DDD7BD0E8AF1414939A70C7 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = WechatSDK1.8.2/WXApiObject.h; sourceTree = "<group>"; };
-		B2C911E21D4E149C4AFED15DE1EFAC0B /* MagicWindow.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MagicWindow.bundle; path = MagicWindowSDK/MagicWindowSDK/MagicWindow.bundle; sourceTree = "<group>"; };
 		B4F8810C3B71CCC719E000AE9062738C /* Pods-practice_alex_h-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-practice_alex_h-dummy.m"; sourceTree = "<group>"; };
-		C1D9B8AD2489F4FD5712C0D5D8AF3077 /* libMagicWindowSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libMagicWindowSDK.a; path = MagicWindowSDK/MagicWindowSDK/libMagicWindowSDK.a; sourceTree = "<group>"; };
-		DDEB3245BAF2E99EAFCBEBB252720831 /* MWFloatView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWFloatView.h; path = MagicWindowSDK/MagicWindowSDK/MWFloatView.h; sourceTree = "<group>"; };
-		E0076F6D5696FC34D74CAD5798E14460 /* MWApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWApi.h; path = MagicWindowSDK/MagicWindowSDK/MWApi.h; sourceTree = "<group>"; };
-		F993B2FE33316E39AA01EC88E9B69253 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = WechatSDK1.8.2/WechatAuthSDK.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,33 +33,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0C292DD196581D554876C95C52852A2A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				131A9C071E07C00AAC34F39A466AE8C1 /* libWeChatSDK.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		1A595613D55D719CA39D6916C518108F /* MagicWindowSDK */ = {
-			isa = PBXGroup;
-			children = (
-				E0076F6D5696FC34D74CAD5798E14460 /* MWApi.h */,
-				45DBFCB88BBF2251232DC775C5859F16 /* MWApiObject.h */,
-				7B158C5453678AB9E0B81FF1A70084D1 /* MWCampaignConfig.h */,
-				DDEB3245BAF2E99EAFCBEBB252720831 /* MWFloatView.h */,
-				F6AEAC2759D26C1725A38AB614C9CC61 /* Frameworks */,
-				8245A3B424B161710DAAFA333E98C1C3 /* Resources */,
-			);
-			name = MagicWindowSDK;
-			path = MagicWindowSDK;
 			sourceTree = "<group>";
 		};
 		51D37446A027B72C72753577CB614C6E /* Products */ = {
@@ -108,47 +76,9 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
-				C27A3B86F3192B5AF5FCAC9A524467F4 /* Pods */,
 				51D37446A027B72C72753577CB614C6E /* Products */,
 				755C4590FFD3C958F71D176EC03197FF /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		8245A3B424B161710DAAFA333E98C1C3 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				B2C911E21D4E149C4AFED15DE1EFAC0B /* MagicWindow.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		C27A3B86F3192B5AF5FCAC9A524467F4 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1A595613D55D719CA39D6916C518108F /* MagicWindowSDK */,
-				F22254EE006AA88BCCCD388AD11C69A1 /* WechatOpenSDK */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		F22254EE006AA88BCCCD388AD11C69A1 /* WechatOpenSDK */ = {
-			isa = PBXGroup;
-			children = (
-				F993B2FE33316E39AA01EC88E9B69253 /* WechatAuthSDK.h */,
-				420EAD049A2CA32729EED166B675A2B4 /* WXApi.h */,
-				ABA4221A0DDD7BD0E8AF1414939A70C7 /* WXApiObject.h */,
-				0C292DD196581D554876C95C52852A2A /* Frameworks */,
-			);
-			name = WechatOpenSDK;
-			path = WechatOpenSDK;
-			sourceTree = "<group>";
-		};
-		F6AEAC2759D26C1725A38AB614C9CC61 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C1D9B8AD2489F4FD5712C0D5D8AF3077 /* libMagicWindowSDK.a */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

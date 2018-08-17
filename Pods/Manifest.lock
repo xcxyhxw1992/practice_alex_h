@@ -1,20 +1,3 @@
-PODS:
-  - MagicWindowSDK (4.2.180523):
-    - WechatOpenSDK
-  - WechatOpenSDK (1.8.2)
-
-DEPENDENCIES:
-  - MagicWindowSDK
-
-SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - MagicWindowSDK
-    - WechatOpenSDK
-
-SPEC CHECKSUMS:
-  MagicWindowSDK: 0730a1b8e4e8bc4050bf30f107f3edf170f2470b
-  WechatOpenSDK: 676feec516a11173eafd1fe64b10d27babf28701
-
-PODFILE CHECKSUM: 16c9611ab83e821441769a429a2f4f0d92eea012
+PODFILE CHECKSUM: 5160985e341adb775324e073b6f351eea5ff1a5c
 
 COCOAPODS: 1.5.3
